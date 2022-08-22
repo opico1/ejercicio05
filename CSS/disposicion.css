@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px black solid;
+}
+
+.imagen{
+    width: 300px;
+    margin: 25px;
+}
+
+.imagen:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    flex-wrap: wrap;
+}
